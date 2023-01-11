@@ -1,0 +1,84 @@
+body{
+  background:white;
+  height: 100vh;
+  width: 400px;
+  /* align-items: center; */
+}
+.calculator{
+  background: black;
+  height: 100vh;
+  width: 400px;
+  border-radius: 3%;
+}
+table{
+  align-items: baseline;
+  height: 70vh;
+  width: 320px;
+  margin-left: 10px;
+}
+.input-display-box{
+height: 67.5px;
+width: 360px;
+color: aquamarine;
+font-size: 1.5rem;
+text-align: right;
+background: black;
+border: 0px; 
+}
+.display-box{
+  height: 67.5px;
+  width: 360px;
+  color:white ;
+  background: black;
+  border: 0px;
+  border-bottom: 1px solid brown;
+  margin: 20px;
+  font-size: 2rem;
+  text-align: right;
+}
+.button{
+  height: 75px;
+  width: 75px;
+  margin-left: 10px;
+  border: 0px;
+  border-radius: 10%;
+  background: rgb(62, 53, 53);
+  color: aliceblue;
+  font-size: 2rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+.button-c{
+  height: 75px;
+  width: 75px;
+  margin-left: 10px;
+  border: 0px;
+  border-radius: 10%;
+  background: rgb(225, 101, 56);
+  color:black;
+  font-size: 2rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+.button-eq{
+  height: 75px;
+  width: 75px;
+  margin-left: 10px;
+  border: 0px;
+  border-radius: 10%;
+  background: rgb(240, 148, 115);
+  color: black;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.button-sign{
+  height: 75px;
+  width: 75px;
+  margin-left: 10px;
+  border: 0px;
+  border-radius: 10%;
+  background: rgb(62, 53, 53); 
+  color: rgb(225, 101, 56);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
